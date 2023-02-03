@@ -10,3 +10,6 @@ This is an example of login page built with Next.js +  Tailwindcss + MongoDB
 
 ![sign up page](docs/images/signup-page.png)
 
+## After login
+
+![after login](docs/images/after-login.png)

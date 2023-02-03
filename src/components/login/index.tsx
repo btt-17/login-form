@@ -43,7 +43,7 @@ const LoginForm: React.FC = () => {
       if (result.data === "failed") {
         setErrorStatus('Your username or password is wrong!')
       } else {
-        alert('Login successfully')
+        router.push('/home')
         setErrorStatus('')
       }
 
