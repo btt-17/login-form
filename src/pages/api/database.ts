@@ -8,7 +8,7 @@ let cachedDb: Db;
 
 if (!url) {
     throw new Error(
-      'Please define the MONGODB_URI environment variable inside .env.local'
+      'Please define the MONGODB_URL environment variable inside .env.local'
     );
   }
   
